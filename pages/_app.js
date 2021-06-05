@@ -1,12 +1,12 @@
 import '../styles/globals.css';
-import CardColumns from '../components/cards';
 import Jumbotron from '../components/jumbotron';
+import Cards from '../components/cards'
 
 function MyApp() {
   return (
     <>
       <Jumbotron />
-      {/* <CardColumns /> */}
+      <Cards />
     </>
   );
 }

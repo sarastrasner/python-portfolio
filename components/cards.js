@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 import projectsArray from '../data/projects';
