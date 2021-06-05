@@ -1,37 +1,49 @@
-import React from 'react'
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 import projectsArray from '../data/projects';
 
 function CardComponent() {
   return (
-    <CardColumns className="m-4">
-      {projectsArray.map((item, idx) => {
-        return (
-          <Card key={idx}>
-            {item.image ? (
-              <Card.Img variant="top" src={`../public/assets/images/${item.image}`}  />
-              //<Card.Img variant="top" src={`../assets/${item.image}`} />
-            ) : null}
-            <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                Topic: {item.topic}
-              </Card.Subtitle>
-              <Card.Text>{item.description}</Card.Text>
-              <div className="py-2 text-seaGreen">
+    <div className="m-4">
+      <CardColumns>
+        {projectsArray.map((item, idx) => {
+          return (
+            <Card key={idx}>
+              {item.image ? (
                 <a href={item.URL} rel="noreferrer" target="_blank">
-                  <i>View this Project</i>
+                  <Card.Img variant="top" src={`./${item.image}`} />
                 </a>
-              </div>
-            </Card.Body>
-            <Card.Footer>
-              <small className="text-muted">Last updated {item.created}</small>
-            </Card.Footer>
-          </Card>
-        );
-      })}
-    </CardColumns>
+              ) : null}
+              <Card.Body>
+                <Card.Title>{item.name}</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Topic: {item.topic}
+                </Card.Subtitle>
+                <Card.Text>{item.description}</Card.Text>
+                {item.flowchart ? (
+                  <Card.Link
+                    onClick={() => window.open(`${item.flowchart}`, '_blank')}
+                    className="list-group-flush"
+                  >
+                    View this project's flowchart
+                  </Card.Link>
+                ) : null}
+                <Card.Link>
+                  <a href={item.URL} rel="noreferrer" target="_blank">
+                    View this Project
+                  </a>
+                </Card.Link>
+              </Card.Body>
+              <Card.Footer>
+                <small className="text-muted">
+                  Last updated {item.created}
+                </small>
+              </Card.Footer>
+            </Card>
+          );
+        })}
+      </CardColumns>
+    </div>
   );
 }
 
