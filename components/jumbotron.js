@@ -3,7 +3,7 @@ function Jumbo() {
     <div className="bg-seaGreen p-10">
       <h1 className="text-white text-6xl">Python Projects</h1>
       <p className="text-white my-4">
-        Hello! I'm Sara Strasner, am a full-stack JavaScript developer learning Python using a <a className="text-white" href="https://www.udemy.com/course/100-days-of-code" rel="noreferrer" target="_blank">
+        Hello! I'm Sara Strasner, a full-stack JavaScript developer learning Python using a <a className="text-white" href="https://www.udemy.com/course/100-days-of-code" rel="noreferrer" target="_blank">
         100 Days of Code course on Udemy.
           </a> This webpage gives me a way of reflecting on what I've learned each day, while seeing my own growth through daily Python projects.
       </p>
