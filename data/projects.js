@@ -42,7 +42,7 @@ let projectsArray = [
     topic: 'Conditionals and Loops',
     description:
       'A hangman game built with lists, if/else statements, and loops.',
-      image:"hangman.png",
+    image: 'hangman.png',
     created: 'May 14, 2021',
   },
   {
@@ -59,7 +59,7 @@ let projectsArray = [
     topic: 'Loops',
     description:
       'A password generator that user for loops to generate a randomized password using user input.',
-      image:"pw-generator.png",
+    image: 'pw-generator.png',
     created: 'May 12, 2021',
   },
   {
@@ -67,7 +67,8 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-4-Rock-Paper-Scissors',
     topic: 'Randomization and Lists',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'An interactive rock, paper, scissors game built using conditional logic.',
+    image: 'rock-paper-scissors.png',
     created: 'May 11, 2021',
   },
   {
@@ -75,7 +76,8 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-3-Treasure-Island',
     topic: 'Control Flow and Logical Operators',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'A text-based adventure game that gives the user a series of binary choices that may or may not lead them to a hidden treasure.',
+    image: 'treasure-island.png',
     created: 'May 10, 2021',
   },
   {
@@ -83,7 +85,8 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-2-Tip-Calculator',
     topic: 'Data Types',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'A tip calculator that uses basic mathematical operators to calculate a grand total with tip, and then splits that number among how many will be paying the bill.',
+      image:"tip-calculator.png",
     created: 'May 19, 2021',
   },
   {
@@ -91,7 +94,8 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-1-Band-Name-Generator',
     topic: 'Working with Variables',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'A Python implementation of the classic band name generator. City You Grew Up In + Name of Your First Pet = Perfect Band Name.',
+      image:"band-name-generator.png",
     created: 'May 8, 2021',
   },
 ];
