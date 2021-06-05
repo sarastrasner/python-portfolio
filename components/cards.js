@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
-import Container from 'react-bootstrap/Container';
 import projectsArray from '../data/projects';
 
 function CardComponent() {
@@ -11,7 +10,9 @@ function CardComponent() {
           return (
             <Card key={idx}>
               {item.image ? (
-                <Card.Img variant="top" src={`./${item.image}`} />
+                <a href={item.URL} rel="noreferrer" target="_blank">
+                  <Card.Img variant="top" src={`./${item.image}`} />
+                </a>
               ) : null}
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
@@ -19,11 +20,19 @@ function CardComponent() {
                   Topic: {item.topic}
                 </Card.Subtitle>
                 <Card.Text>{item.description}</Card.Text>
-                <div className="py-2 text-seaGreen">
+                {item.flowchart ? (
+                  <Card.Link
+                    onClick={() => window.open(`${item.flowchart}`, '_blank')}
+                    className="list-group-flush"
+                  >
+                    View this project's flowchart
+                  </Card.Link>
+                ) : null}
+                <Card.Link>
                   <a href={item.URL} rel="noreferrer" target="_blank">
-                    <i>View this Project</i>
+                    View this Project
                   </a>
-                </div>
+                </Card.Link>
               </Card.Body>
               <Card.Footer>
                 <small className="text-muted">

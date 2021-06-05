@@ -4,9 +4,10 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-11-Blackjack',
     topic: 'Capstone Project',
     description:
-      'An interactive blackjack game using loops, game logic,',
+      'An interactive blackjack game using using a variety of function and loops, and advanced game logic.',
     created: 'June 4, 2021',
-    image:"blackjack.png",
+    image: 'blackjack.png',
+    flowchart: 'blackjack-flowchart.jpg',
   },
   {
     name: 'Day 10: Calculator App',
@@ -14,6 +15,7 @@ let projectsArray = [
     topic: 'Functions with Outputs',
     description:
       'A calculator using recursion, while loops, and functions that provide outputs',
+    image: 'calculator.png',
     created: 'June 3, 2021',
   },
   {
@@ -21,7 +23,8 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-9-Blind-Auction',
     topic: 'Python Dictionaries and Nesting',
     description:
-      'A CLI silent auction app that askes for a bidder\'s name and bid, then clears the screen for the next bidder to enter their name and bid. Each bid is added to a dictionary. Once all bids are entered, the largest bid is found in the dictionary and returned as the winner of the silent auction.',
+      "A CLI silent auction app that askes for a bidder's name and bid, then clears the screen for the next bidder to enter their name and bid. Each bid is added to a dictionary. Once all bids are entered, the largest bid is found in the dictionary and returned as the winner of the silent auction.",
+    image: 'auction.png',
     created: 'June 3, 2021',
   },
   {
@@ -30,14 +33,16 @@ let projectsArray = [
     topic: 'Function Parameters',
     description:
       'Implementing a Caesar cipher, which takes a message and a shift value, then encrypts/decrypts the message shifting each letter forward or backward based on the shift value.',
+    image: 'cipher.png',
     created: 'June 3, 2021',
   },
   {
     name: 'Day 7: Hangman',
     URL: 'https://replit.com/@SaraStrasner/Day-7-Hangman',
-    topic: 'Hangman',
+    topic: 'Conditionals and Loops',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'A hangman game built with lists, if/else statements, and loops.',
+      image:"hangman.png",
     created: 'May 14, 2021',
   },
   {
@@ -45,7 +50,7 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-7-Hangman',
     topic: 'Functions and Karel',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'Using loops and conditionals to help Karel the robot escape a series of obstacles.',
     created: 'May 13, 2021',
   },
   {
@@ -53,7 +58,8 @@ let projectsArray = [
     URL: 'https://replit.com/@SaraStrasner/Day-5-Password-Generator',
     topic: 'Loops',
     description:
-      'This card has supporting text below as a natural lead-in to additional content.',
+      'A password generator that user for loops to generate a randomized password using user input.',
+      image:"pw-generator.png",
     created: 'May 12, 2021',
   },
   {
