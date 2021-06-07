@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 12: Number Guessing Game',
+    URL: 'https://replit.com/@SaraStrasner/Day-12-Number-Guessing',
+    topic: 'Local vs. Global Scope',
+    description:
+      'An number guessing game built using a variety of local and global variables and namespaces.',
+    created: 'June 7, 2021',
+    image: 'number-guessing-game.png',
+  },
+  {
     name: 'Day 11: Blackjack Capstone Project',
     URL: 'https://replit.com/@SaraStrasner/Day-11-Blackjack',
     topic: 'Capstone Project',
