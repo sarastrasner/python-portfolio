@@ -1,5 +1,11 @@
 let projectsArray = [
   {
+    name: 'Day 13: Debugging',
+    topic: 'Debugging: How to Fix and Find Errors',
+    description: 'A series of debugging exercises to develop debugging skills.',
+    created: 'June 7, 2021',
+  },
+  {
     name: 'Day 12: Number Guessing Game',
     URL: 'https://replit.com/@SaraStrasner/Day-12-Number-Guessing',
     topic: 'Local vs. Global Scope',
@@ -56,7 +62,6 @@ let projectsArray = [
   },
   {
     name: 'Day 6: Escaping the Maze',
-    URL: 'https://replit.com/@SaraStrasner/Day-7-Hangman',
     topic: 'Functions and Karel',
     description:
       'Using loops and conditionals to help Karel the robot escape a series of obstacles.',
@@ -95,7 +100,7 @@ let projectsArray = [
     topic: 'Data Types',
     description:
       'A tip calculator that uses basic mathematical operators to calculate a grand total with tip, and then splits that number among how many will be paying the bill.',
-      image:"tip-calculator.png",
+    image: 'tip-calculator.png',
     created: 'May 19, 2021',
   },
   {
@@ -104,7 +109,7 @@ let projectsArray = [
     topic: 'Working with Variables',
     description:
       'A Python implementation of the classic band name generator. City You Grew Up In + Name of Your First Pet = Perfect Band Name.',
-      image:"band-name-generator.png",
+    image: 'band-name-generator.png',
     created: 'May 8, 2021',
   },
 ];
