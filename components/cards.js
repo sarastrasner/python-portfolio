@@ -29,9 +29,11 @@ function CardComponent() {
                   </Card.Link>
                 ) : null}
                 <Card.Link>
-                  <a href={item.URL} rel="noreferrer" target="_blank">
-                    View this Project
-                  </a>
+                  {item.URL ? (
+                    <a href={item.URL} rel="noreferrer" target="_blank">
+                      View this Project
+                    </a>
+                  ) : null}
                 </Card.Link>
               </Card.Body>
               <Card.Footer>
