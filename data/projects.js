@@ -1,12 +1,12 @@
 let projectsArray = [
   {
     name: 'Day 15: Coffee Machine Project',
-    URL: 'https://replit.com/@SaraStrasner/Day-14-Higher-Lower-Game',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/coffeeMachine',
     topic: 'Local Development Environment',
     description:
-      'An implementation of the Higher Lower game. The user is given two cards and has to decide which of the two has more Instagram followers. This game is built using game logic, conditionals, loops, and local and global variables. ',
+      'A virtual coffee machine that takes orders, checks available resources (coffee, water, milk) before fulfilling orders, processes payments and gives change, and renders a report of the machine\'s current resources and money',
     created: 'June 7, 2021',
-    image: 'higher-lower.png',
+    image: 'coffee-machine.png',
   },
   {
     name: 'Day 14: Higher Lower Game Project',
