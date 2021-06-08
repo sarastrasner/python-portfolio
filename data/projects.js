@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 16: Refatored OOP Coffee Machine',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/coffeeMachineV2',
+    topic: 'Object-Oriented Programming',
+    description:
+      'An updated version of Coffee Machine (below), which has been refactored using Object-Oriented Programming.',
+    created: 'June 8, 2021',
+    image: 'coffee-machine-v2.png',
+  },
+  {
     name: 'Day 15: Coffee Machine Project',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/coffeeMachine',
     topic: 'Local Development Environment',
