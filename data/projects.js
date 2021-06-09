@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 17: Quiz Game',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/quizGame',
+    topic: 'Object-Oriented Programming',
+    description:
+      'A quiz game built using Object-Oriented Programming. The QuizBrain class has methods that check for remaining unasked questions, asks the next question, checks the user\'s answer, and print\'s the user\'s current score.',
+    created: 'June 9, 2021',
+  },
+  {
     name: 'Day 16: Refatored OOP Coffee Machine',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/coffeeMachineV2',
     topic: 'Object-Oriented Programming',
