@@ -9,7 +9,7 @@ function MyApp() {
   return (
     <div className="font-sans">
       <Head>
-        <title>Python Portfolio</title>
+        <title>Sara Strasner | Python Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Jumbotron />
