@@ -10,7 +10,7 @@ function MyApp() {
     <div className="font-sans">
       <Head>
         <title>Python Portfolio</title>
-        <link rel="icon" href="@/public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Jumbotron />
       <Cards />
