@@ -3,7 +3,7 @@ function Jumbo() {
     <div className="bg-seaGreen p-10">
       <h1 className="text-white text-6xl">Python Projects</h1>
       <p className="text-white my-4">
-        Hello! I'm{' '}
+        Hello! I'm 
         <b>
           <a
             className="text-white"
@@ -11,7 +11,7 @@ function Jumbo() {
             rel="noreferrer"
             target="_blank"
           >
-            Sara Strasner
+            {' '}Sara Strasner
           </a>
         </b>
         , a full-stack JavaScript developer learning Python using a{' '}

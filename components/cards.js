@@ -31,7 +31,7 @@ function CardComponent() {
                 <Card.Link>
                   {item.URL ? (
                     <a href={item.URL} rel="noreferrer" target="_blank">
-                      View this Project
+                      <p>View this Project</p>
                     </a>
                   ) : null}
                 </Card.Link>
