@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 18: Hirst Painting',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/hirstPainting',
+    topic: 'Understanding Turtle Graphics and Reading Documentation',
+    description:
+      'A digital art creation app inspired by Damien Hirst\'s spot paintings, which feature rows of randomly colored circles.',
+    created: 'June 10, 2021',
+    image:'my_hirst.jpeg'
+  },
+  {
     name: 'Day 17: Quiz Game',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/quizGame',
     topic: 'Object-Oriented Programming',
