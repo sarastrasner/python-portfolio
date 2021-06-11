@@ -4,8 +4,8 @@ let projectsArray = [
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/hirstPainting',
     topic: 'More Turtle Graphics, Event Listeners, State, and Multiple Instances',
     description:
-      'A digital art creation app inspired by Damien Hirst\'s spot paintings, which feature rows of randomly colored circles.',
-    created: 'June 10, 2021',
+      'A digital turtle race built using event listeners, state, and multiple instances of Turtle Graphics. The user is asked to predict a winner, and each turtle takes a random number of steps until a winner crosses the finish line.',
+    created: 'June 11, 2021',
     image:'turtle_gif.gif'
   },
   {
