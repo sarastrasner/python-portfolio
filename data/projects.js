@@ -1,7 +1,7 @@
 let projectsArray = [
     {
     name: 'Day 19: Turtle Race',
-    URL: 'https://github.com/sarastrasner/python-projects/tree/main/hirstPainting',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/turtleRace',
     topic: 'More Turtle Graphics, Event Listeners, State, and Multiple Instances',
     description:
       'A digital turtle race built using event listeners, state, and multiple instances of Turtle Graphics. The user is asked to predict a winner, and each turtle takes a random number of steps until a winner crosses the finish line.',
