@@ -1,4 +1,13 @@
 let projectsArray = [
+    {
+    name: 'Day 19: Turtle Race',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/hirstPainting',
+    topic: 'More Turtle Graphics, Event Listeners, State, and Multiple Instances',
+    description:
+      'A digital art creation app inspired by Damien Hirst\'s spot paintings, which feature rows of randomly colored circles.',
+    created: 'June 10, 2021',
+    image:'turtle_gif.gif'
+  },
   {
     name: 'Day 18: Hirst Painting',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/hirstPainting',
@@ -6,7 +15,7 @@ let projectsArray = [
     description:
       'A digital art creation app inspired by Damien Hirst\'s spot paintings, which feature rows of randomly colored circles.',
     created: 'June 10, 2021',
-    image:'my_hirst.jpeg'
+    image:'hirst_gif.gif'
   },
   {
     name: 'Day 17: Quiz Game',
