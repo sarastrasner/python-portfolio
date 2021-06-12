@@ -1,4 +1,13 @@
 let projectsArray = [
+  {
+    name: 'Day 20: Snake Game Part 1',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/snakeGame',
+    topic: 'Animation and Coordinates',
+    description:
+      'Part 1 of the two-part build of the classic Snake Game. Built using Object-Oriented Programming.',
+    created: 'June 11, 2021',
+    image:'snake_game_pt1.gif'
+  },
     {
     name: 'Day 19: Turtle Race',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/turtleRace',
