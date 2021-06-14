@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 21: Snake Game Part 2',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/snakeGamePt2',
+    topic: 'Class Inheritance',
+    description:
+      'Part II of the Snake Game Part I build. Creates and updates a scoreboard and detects collisions with food, wall or tail. Built using Object-Oriented Programming and class inheritance.',
+    created: 'June 14, 2021',
+    image:'snake_pt2.gif'
+  },
+  {
     name: 'Day 20: Snake Game Part 1',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/snakeGame',
     topic: 'Animation and Coordinates',
