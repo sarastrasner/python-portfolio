@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 22: Pong Game',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/pongGame',
+    topic: 'Intermediate Game Logic',
+    description:
+      'Building Pong, the classic arcade game, with Turtle, classes, class inheritance, and game logic.',
+    created: 'June 15, 2021',
+    image:'pong.gif'
+  },
+  {
     name: 'Day 21: Snake Game Part 2',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/snakeGamePt2',
     topic: 'Class Inheritance',
