@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 23: Turtle Crossing',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/turtleCrossing',
+    topic: 'Turtle Crossing Capstone Project',
+    description:
+      'Similar to that of Frogger, the goal of Turtle Crossing is to cross a busy road and get to the other side without being hit by a car. This game is built using Object-Oriented Programming, classes, and game logic.',
+    created: 'June 16, 2021',
+    image:'turtleCrossing.gif'
+  },
+  {
     name: 'Day 22: Pong Game',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/pongGame',
     topic: 'Intermediate Game Logic',
