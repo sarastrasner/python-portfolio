@@ -1,4 +1,12 @@
 let projectsArray = [
+    {
+    name: 'Day 24: Mail Merge Challenge',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/mail_merge',
+    topic: 'Files, Directories, and Paths',
+    description:
+      'Opening, reading, and writing files to complete a mail merge project.',
+    created: 'June 17, 2021',
+  },
   {
     name: 'Day 23: Turtle Crossing',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/turtleCrossing',
