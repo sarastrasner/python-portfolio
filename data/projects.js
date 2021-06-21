@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 26: NATO Phonetic Alphabet',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/nato_alphabet',
+    topic: 'List and Dictionary Comprehensions',
+    description:
+      'Returns the NATO alphabet for each letter in a user input string. Built using list and dictionary comprehension. Pandas is used to import, read, and manipulate a .csv file of the NATO alphabet.',
+    created: 'June 21, 2021'
+  },
+  {
     name: 'Day 25: U.S. States Game',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/states_game',
     topic: 'Working with CSVs and Analyzing Data with Pandas',
