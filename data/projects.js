@@ -1,4 +1,13 @@
 let projectsArray = [
+  {
+    name: 'Day 25: U.S. States Game',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/states_game',
+    topic: 'Working with CSVs and Analyzing Data with Pandas',
+    description:
+      'A guessing game that prompts the user to name all 50 states. Correctly guessed states are labeled on a map. The states data is read and analyzed using the pandas library. The map is rendered using the turtle library. The game keeps a record of correct states and at the end of the game creates a csv file of states to study.',
+    created: 'June 18, 2021',
+    image:'states_game.gif'
+  },
     {
     name: 'Day 24: Mail Merge Challenge',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/mail_merge',
