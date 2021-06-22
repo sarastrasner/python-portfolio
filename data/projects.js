@@ -1,4 +1,14 @@
 let projectsArray = [
+    {
+    name: 'Day 27: Unit Converter',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/unit_converter',
+    topic: 'Graphical User Interfaces with Tkinter and Function Arguments',
+    description:
+      'A GUI program that converts miles to kilometers built with Tkinter.',
+    created: 'June 22, 2021',
+    image: 'miles_to_km_converter.png'
+
+  },
   {
     name: 'Day 26: NATO Phonetic Alphabet',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/nato_alphabet',
