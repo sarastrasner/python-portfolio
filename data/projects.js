@@ -1,4 +1,13 @@
 let projectsArray = [
+      {
+    name: 'Day 28: Pomodoro App',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/pomodoro_app',
+    topic: 'Graphical User Interfaces with Tkinter',
+    description:
+      'An application built using tkinter to help users implement the Pomodoro Technique when working.',
+    created: 'June 23, 2021',
+    image: 'pomodoro.gif'
+  },
     {
     name: 'Day 27: Unit Converter',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/unit_converter',
@@ -7,7 +16,6 @@ let projectsArray = [
       'A GUI program that converts miles to kilometers built with Tkinter.',
     created: 'June 22, 2021',
     image: 'miles_to_km_converter.png'
-
   },
   {
     name: 'Day 26: NATO Phonetic Alphabet',
