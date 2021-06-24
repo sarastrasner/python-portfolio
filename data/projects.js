@@ -1,4 +1,13 @@
 let projectsArray = [
+  {
+    name: 'Day 29: Password Manager',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/password_manager',
+    topic: 'Graphical User Interfaces with Tkinter',
+    description:
+      'A password manager built using Tkinter. The app can provide a randomized password if needed and saves the website, username, and password to a local file.',
+    created: 'June 24, 2021',
+    image: 'passwordManager.jpg'
+  },
       {
     name: 'Day 28: Pomodoro App',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/pomodoro_app',
