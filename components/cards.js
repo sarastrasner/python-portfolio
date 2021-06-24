@@ -11,7 +11,9 @@ function CardComponent() {
             <Card key={idx}>
               {item.image ? (
                 <a href={item.URL} rel="noreferrer" target="_blank">
+                  <div className="border-b">
                   <Card.Img variant="top" src={`./${item.image}`} />
+                  </div>
                 </a>
               ) : null}
               <Card.Body>
