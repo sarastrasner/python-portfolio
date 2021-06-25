@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 30: Password Manager v2',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/password_manager_v2',
+    topic: 'Errors, Exceptions, and Saving JSON Data',
+    description:
+      'An updated version of the password manager that handles exceptions related to the data.json file. This version also has a search feature so users can search for an existing password.',
+    created: 'June 25, 2021',
+    image: 'passwordManagerv2.png'
+  },
+  {
     name: 'Day 29: Password Manager',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/password_manager',
     topic: 'Graphical User Interfaces with Tkinter',
