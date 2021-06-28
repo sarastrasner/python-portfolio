@@ -1,12 +1,21 @@
 let projectsArray = [
   {
+    name: 'Day 31: Flash Card App Capstone Project',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/flashcard_app',
+    topic: 'Capstone Project',
+    description:
+      "A flashcard app built with Tkinter that shows a Spanish word and then its English translation after three seconds. If the user clicks that they knew the word, it is removed from the list of words to learn and won't be shown again.",
+    created: 'June 28, 2021',
+    image:'flashcard.png'
+  },
+  {
     name: 'Day 30: Password Manager v2',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/password_manager_v2',
     topic: 'Errors, Exceptions, and Saving JSON Data',
     description:
       'An updated version of the password manager that handles exceptions related to the data.json file. This version also has a search feature so users can search for an existing password.',
     created: 'June 25, 2021',
-    image: 'passwordManagerv2.png'
+    image: 'passwordManagerv2.png',
   },
   {
     name: 'Day 29: Password Manager',
@@ -15,25 +24,25 @@ let projectsArray = [
     description:
       'A password manager built using Tkinter. The app can provide a randomized password if needed and saves the website, username, and password to a local file.',
     created: 'June 24, 2021',
-    image: 'passwordManager.jpg'
+    image: 'passwordManager.jpg',
   },
-      {
+  {
     name: 'Day 28: Pomodoro App',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/pomodoro_app',
     topic: 'Graphical User Interfaces with Tkinter',
     description:
       'An application built using tkinter to help users implement the Pomodoro Technique when working.',
     created: 'June 23, 2021',
-    image: 'pomodoro.gif'
+    image: 'pomodoro.gif',
   },
-    {
+  {
     name: 'Day 27: Unit Converter',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/unit_converter',
     topic: 'Graphical User Interfaces with Tkinter and Function Arguments',
     description:
       'A GUI program that converts miles to kilometers built with Tkinter.',
     created: 'June 22, 2021',
-    image: 'miles_to_km_converter.png'
+    image: 'miles_to_km_converter.png',
   },
   {
     name: 'Day 26: NATO Phonetic Alphabet',
@@ -41,7 +50,7 @@ let projectsArray = [
     topic: 'List and Dictionary Comprehensions',
     description:
       'Returns the NATO alphabet for each letter in a user input string. Built using list and dictionary comprehension. Pandas is used to import, read, and manipulate a .csv file of the NATO alphabet.',
-    created: 'June 21, 2021'
+    created: 'June 21, 2021',
   },
   {
     name: 'Day 25: U.S. States Game',
@@ -50,9 +59,9 @@ let projectsArray = [
     description:
       'A guessing game that prompts the user to name all 50 states. Correctly guessed states are labeled on a map. The states data is read and analyzed using the pandas library. The map is rendered using the turtle library. The game keeps a record of correct states and at the end of the game creates a csv file of states to study.',
     created: 'June 18, 2021',
-    image:'states_game.gif'
+    image: 'states_game.gif',
   },
-    {
+  {
     name: 'Day 24: Mail Merge Challenge',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/mail_merge',
     topic: 'Files, Directories, and Paths',
@@ -67,7 +76,7 @@ let projectsArray = [
     description:
       'Similar to that of Frogger, the goal of Turtle Crossing is to cross a busy road and get to the other side without being hit by a car. This game is built using Object-Oriented Programming, classes, and game logic.',
     created: 'June 16, 2021',
-    image:'turtleCrossing.gif'
+    image: 'turtleCrossing.gif',
   },
   {
     name: 'Day 22: Pong Game',
@@ -76,7 +85,7 @@ let projectsArray = [
     description:
       'Building Pong, the classic arcade game, with Turtle, classes, class inheritance, and game logic.',
     created: 'June 15, 2021',
-    image:'pong.gif'
+    image: 'pong.gif',
   },
   {
     name: 'Day 21: Snake Game Part 2',
@@ -85,7 +94,7 @@ let projectsArray = [
     description:
       'Part II of the Snake Game Part I build. Creates and updates a scoreboard and detects collisions with food, wall or tail. Built using Object-Oriented Programming and class inheritance.',
     created: 'June 14, 2021',
-    image:'snake_pt2.gif'
+    image: 'snake_pt2.gif',
   },
   {
     name: 'Day 20: Snake Game Part 1',
@@ -94,32 +103,33 @@ let projectsArray = [
     description:
       'Part 1 of the two-part build of the classic Snake Game. Built using Object-Oriented Programming.',
     created: 'June 11, 2021',
-    image:'snake_game_pt1.gif'
+    image: 'snake_game_pt1.gif',
   },
-    {
+  {
     name: 'Day 19: Turtle Race',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/turtleRace',
-    topic: 'More Turtle Graphics, Event Listeners, State, and Multiple Instances',
+    topic:
+      'More Turtle Graphics, Event Listeners, State, and Multiple Instances',
     description:
       'A digital turtle race built using event listeners, state, and multiple instances of Turtle Graphics. The user is asked to predict a winner, and each turtle takes a random number of steps until a winner crosses the finish line.',
     created: 'June 11, 2021',
-    image:'turtle_gif.gif'
+    image: 'turtle_gif.gif',
   },
   {
     name: 'Day 18: Hirst Painting',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/hirstPainting',
     topic: 'Understanding Turtle Graphics and Reading Documentation',
     description:
-      'A digital art creation app inspired by Damien Hirst\'s spot paintings, which feature rows of randomly colored circles.',
+      "A digital art creation app inspired by Damien Hirst's spot paintings, which feature rows of randomly colored circles.",
     created: 'June 10, 2021',
-    image:'hirst_gif.gif'
+    image: 'hirst_gif.gif',
   },
   {
     name: 'Day 17: Quiz Game',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/quizGame',
     topic: 'Object-Oriented Programming',
     description:
-      'A quiz game built using Object-Oriented Programming. The QuizBrain class has methods that check for remaining unasked questions, asks the next question, checks the user\'s answer, and print\'s the user\'s current score.',
+      "A quiz game built using Object-Oriented Programming. The QuizBrain class has methods that check for remaining unasked questions, asks the next question, checks the user's answer, and print's the user's current score.",
     created: 'June 9, 2021',
   },
   {
@@ -136,7 +146,7 @@ let projectsArray = [
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/coffeeMachine',
     topic: 'Local Development Environment',
     description:
-      'A virtual coffee machine that takes orders, checks available resources (coffee, water, milk) before fulfilling orders, processes payments and gives change, and renders a report of the machine\'s current resources and money',
+      "A virtual coffee machine that takes orders, checks available resources (coffee, water, milk) before fulfilling orders, processes payments and gives change, and renders a report of the machine's current resources and money",
     created: 'June 7, 2021',
     image: 'coffee-machine.png',
   },
