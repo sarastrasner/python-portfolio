@@ -1,4 +1,12 @@
 let projectsArray = [
+    {
+    name: 'Day 32: Automated Birthday Email',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/birthday_wisher',
+    topic: 'Email SMTP and the datetime module',
+    description:
+      "A birthday wisher that uses SMTP, datetime, and pandas to automatically send customized birthday emails to friends and family.",
+    created: 'June 29, 2021'
+  },
   {
     name: 'Day 31: Flash Card App Capstone Project',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/flashcard_app',
