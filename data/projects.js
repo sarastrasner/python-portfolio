@@ -1,4 +1,13 @@
 let projectsArray = [
+  {
+    name: 'Day 34: Quizzler App',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/iss_tracker',
+    topic: 'The Trivia API and the Quizzler App',
+    description:
+      "A refactored version of a CLI-based quiz app that included a GUI (via Tkinter) and pulls new data from the Open Trivia database each time the app runs.",
+    created: 'July 1, 2021',
+    image: 'quizzler.png'
+  },
       {
     name: 'Day 33: International Space Station Tracker',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/iss_tracker',
