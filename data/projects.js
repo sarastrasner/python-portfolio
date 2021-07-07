@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 35: Rain Alert Application',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/rain_alert',
+    topic: 'API Keys, Authentication, Environment Variables, and Sending SMS',
+    description:
+      "Checks the weather forecast for a given location, and sends me a text message if it will rain within the next 12 hours. Uses Twilio for sending SMS and the OpenWeather API for checking the forecast.",
+    created: 'July 7, 2021',
+  },
+  {
     name: 'Day 34: Quizzler App',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/iss_tracker',
     topic: 'The Trivia API and the Quizzler App',
