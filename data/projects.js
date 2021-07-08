@@ -6,7 +6,7 @@ let projectsArray = [
     description:
       "An application that checks the closing stock prices for a given stock. If the closing stock price has fluctuated by over 5% in the last two days, it sends a text with the percentage difference, and the 3 latest news articles about that company. Built using Alpha Vantage API, News API, Twilio, requests, and datetime.",
     created: 'July 8, 2021',
-    image: 'stock_news_monitor.png'
+    image: 'stock_alert_texts.png'
   },
   {
     name: 'Day 35: Rain Alert Application',
