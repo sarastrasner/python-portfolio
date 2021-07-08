@@ -1,4 +1,13 @@
 let projectsArray = [
+    {
+    name: 'Day 36: Stock News Monitor',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/stock_news_monitor',
+    topic: 'Intermediate API Keys, Authentication, Environment Variables, and Sending SMS',
+    description:
+      "An application that checks the closing stock prices for a given stock. If the closing stock price has fluctuated by over 5% in the last two days, it sends a text with the percentage difference, and the 3 latest news articles about that company. Built using Alpha Vantage API, News API, Twilio, requests, and datetime.",
+    created: 'July 8, 2021',
+    image: 'stock_news_monitor.png'
+  },
   {
     name: 'Day 35: Rain Alert Application',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/rain_alert',
