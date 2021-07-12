@@ -1,4 +1,12 @@
 let projectsArray = [
+  {
+    name: 'Day 38: Exercise Tracker',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/workout_tracker',
+    topic: 'Exercise Tracking with Python and Google Sheets',
+    description:
+      "An application that uses natural language processing, Nutritionix API, and Sheety API to prompt for the user\'s description of their exercise and adds it to a Google Sheet.",
+    created: 'July 12, 2021',
+  },
       {
     name: 'Day 37: Habit Tracker',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/stock_news_monitor',
