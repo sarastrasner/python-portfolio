@@ -1,4 +1,12 @@
 let projectsArray = [
+      {
+    name: 'Day 37: Habit Tracker',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/stock_news_monitor',
+    topic: 'Advanced Authentication and POST/PUT/DELETE requests',
+    description:
+      "A full-CRUD habit tracker built with Pixela, requests, and datetime.",
+    created: 'July 9, 2021',
+  },
     {
     name: 'Day 36: Stock News Monitor',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/stock_news_monitor',
