@@ -1,35 +1,43 @@
 let projectsArray = [
   {
+    name: 'Day 39: Capstone Part I Cheap Flight Finder',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/cheap_flight_finder',
+    topic: 'Capstone Project',
+    description: 'A cheap flight finder that reads city data and maximum prices from a Google sheet and checks for the cheapest flights from tomorrow to 6 months later for all the cities in the Google Sheet. If the price is lower than the lowest price listed in the Google Sheet, it sends an SMS to me. Uses Object-Oriented Programming, the Sheety API, Kiwi Partners Flight Search API, Tequila Flight Search API, and Twilio SMS API.',
+    created: 'July 13, 2021',
+  },
+  {
     name: 'Day 38: Exercise Tracker',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/workout_tracker',
     topic: 'Exercise Tracking with Python and Google Sheets',
     description:
-      "An application that uses natural language processing, Nutritionix API, and Sheety API to prompt for the user\'s description of their exercise and adds it to a Google Sheet.",
+      "An application that uses natural language processing, Nutritionix API, and Sheety API to prompt for the user's description of their exercise and adds it to a Google Sheet.",
     created: 'July 12, 2021',
   },
-      {
+  {
     name: 'Day 37: Habit Tracker',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/stock_news_monitor',
     topic: 'Advanced Authentication and POST/PUT/DELETE requests',
     description:
-      "A full-CRUD habit tracker built with Pixela, requests, and datetime.",
+      'A full-CRUD habit tracker built with Pixela, requests, and datetime.',
     created: 'July 9, 2021',
   },
-    {
+  {
     name: 'Day 36: Stock News Monitor',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/stock_news_monitor',
-    topic: 'Intermediate API Keys, Authentication, Environment Variables, and Sending SMS',
+    topic:
+      'Intermediate API Keys, Authentication, Environment Variables, and Sending SMS',
     description:
-      "An application that checks the closing stock prices for a given stock. If the closing stock price has fluctuated by over 5% in the last two days, it sends a text with the percentage difference, and the 3 latest news articles about that company. Built using Alpha Vantage API, News API, Twilio, requests, and datetime.",
+      'An application that checks the closing stock prices for a given stock. If the closing stock price has fluctuated by over 5% in the last two days, it sends a text with the percentage difference, and the 3 latest news articles about that company. Built using Alpha Vantage API, News API, Twilio, requests, and datetime.',
     created: 'July 8, 2021',
-    image: 'stock_alert_texts.png'
+    image: 'stock_alert_texts.png',
   },
   {
     name: 'Day 35: Rain Alert Application',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/rain_alert',
     topic: 'API Keys, Authentication, Environment Variables, and Sending SMS',
     description:
-      "Checks the weather forecast for a given location, and sends me a text message if it will rain within the next 12 hours. Uses Twilio for sending SMS and the OpenWeather API for checking the forecast.",
+      'Checks the weather forecast for a given location, and sends me a text message if it will rain within the next 12 hours. Uses Twilio for sending SMS and the OpenWeather API for checking the forecast.',
     created: 'July 7, 2021',
   },
   {
@@ -37,25 +45,25 @@ let projectsArray = [
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/iss_tracker',
     topic: 'The Trivia API and the Quizzler App',
     description:
-      "A refactored version of a CLI-based quiz app that included a GUI (via Tkinter) and pulls new data from the Open Trivia database each time the app runs.",
+      'A refactored version of a CLI-based quiz app that included a GUI (via Tkinter) and pulls new data from the Open Trivia database each time the app runs.',
     created: 'July 1, 2021',
-    image: 'quizzler.png'
+    image: 'quizzler.png',
   },
-      {
+  {
     name: 'Day 33: International Space Station Tracker',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/iss_tracker',
     topic: 'Application Programming Interfaces',
     description:
       "An ISS tracker that emails me if it's dark out, and the ISS is overhead. Utilizes Sunrise-Sunset and ISS Open-Notify APIs and smtplib for email.",
-    created: 'June 30, 2021'
+    created: 'June 30, 2021',
   },
-    {
+  {
     name: 'Day 32: Automated Birthday Email',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/birthday_wisher',
     topic: 'Email SMTP and the datetime module',
     description:
-      "A birthday wisher that uses SMTP, datetime, and pandas to automatically send customized birthday emails to friends and family.",
-    created: 'June 29, 2021'
+      'A birthday wisher that uses SMTP, datetime, and pandas to automatically send customized birthday emails to friends and family.',
+    created: 'June 29, 2021',
   },
   {
     name: 'Day 31: Flash Card App Capstone Project',
@@ -64,7 +72,7 @@ let projectsArray = [
     description:
       "A flashcard app built with Tkinter that shows a Spanish word and then its English translation after three seconds. If the user clicks that they knew the word, it is removed from the list of words to learn and won't be shown again.",
     created: 'June 28, 2021',
-    image:'flashcard.png'
+    image: 'flashcard.png',
   },
   {
     name: 'Day 30: Password Manager v2',
