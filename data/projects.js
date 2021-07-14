@@ -3,7 +3,7 @@ let projectsArray = [
     name: 'Day 40: Capstone Part II Flight Club',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/flight_club',
     topic: 'Capstone Project Part II',
-    description: 'A continuation of the [Cheap Flight Finder project](https://github.com/sarastrasner/python-projects/tree/main/cheap_flight_finder) that accomodates multiple users, handles exceptions, handles destinations without direct flights, and emails all users when deals arise.',
+    description: 'A continuation of the Cheap Flight Finder project that accomodates multiple users, handles exceptions, handles destinations without direct flights, and emails all users when deals arise.',
     created: 'July 14, 2021',
   },
   {
