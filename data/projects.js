@@ -1,4 +1,10 @@
 let projectsArray = [
+    {
+    name: 'Day 41 - 44: HTML & CSS',
+    topic: 'Web Fundamentals',
+    description: 'A 4-day series on basic and intermediate HTML and CSS.',
+    created: 'July 16, 2021',
+  },
   {
     name: 'Day 40: Capstone Part II Flight Club',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/flight_club',
