@@ -1,5 +1,12 @@
 let projectsArray = [
-    {
+  {
+    name: 'Day 45: Movie Watchlist',
+    topic: 'Scraping the Web with BeautifulSoup',
+    description:
+      "A list of must-see movies built using data scraped via BeautifulSoup from Empire's list of 100 best movies of all time.",
+    created: 'August 2, 2021',
+  },
+  {
     name: 'Day 41 - 44: HTML & CSS',
     topic: 'Web Fundamentals',
     description: 'A 4-day series on basic and intermediate HTML and CSS.',
@@ -9,14 +16,16 @@ let projectsArray = [
     name: 'Day 40: Capstone Part II Flight Club',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/flight_club',
     topic: 'Capstone Project Part II',
-    description: 'A continuation of the Cheap Flight Finder project that accomodates multiple users, handles exceptions, handles destinations without direct flights, and emails all users when deals arise.',
+    description:
+      'A continuation of the Cheap Flight Finder project that accomodates multiple users, handles exceptions, handles destinations without direct flights, and emails all users when deals arise.',
     created: 'July 14, 2021',
   },
   {
     name: 'Day 39: Capstone Part I Cheap Flight Finder',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/cheap_flight_finder',
     topic: 'Capstone Project',
-    description: 'A cheap flight finder that reads city data and maximum prices from a Google sheet and checks for the cheapest flights from tomorrow to 6 months later for all the cities in the Google Sheet. If the price is lower than the lowest price listed in the Google Sheet, it sends an SMS to me. Uses Object-Oriented Programming, the Sheety API, Kiwi Partners Flight Search API, Tequila Flight Search API, and Twilio SMS API.',
+    description:
+      'A cheap flight finder that reads city data and maximum prices from a Google sheet and checks for the cheapest flights from tomorrow to 6 months later for all the cities in the Google Sheet. If the price is lower than the lowest price listed in the Google Sheet, it sends an SMS to me. Uses Object-Oriented Programming, the Sheety API, Kiwi Partners Flight Search API, Tequila Flight Search API, and Twilio SMS API.',
     created: 'July 13, 2021',
   },
   {
