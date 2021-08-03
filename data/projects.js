@@ -1,6 +1,7 @@
 let projectsArray = [
   {
     name: 'Day 46: Python Time Machine',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/timeMachine',
     topic: 'Web Scraping and Spotify Automation',
     description:
       "A 'Time Machine' that creates a Spotify playlist of the Billboard Top 100 songs for a user-provided date. Uses BeautifulSoup and requests for web scraping and Spotipy for authentication and playlist creation.",
@@ -9,6 +10,7 @@ let projectsArray = [
   },
   {
     name: 'Day 45: Movie Watchlist',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/movieWatchlist',
     topic: 'Scraping the Web with BeautifulSoup',
     description:
       "A list of must-see movies built using data scraped via BeautifulSoup from Empire's list of 100 best movies of all time.",
