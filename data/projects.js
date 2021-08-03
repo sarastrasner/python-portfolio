@@ -5,6 +5,7 @@ let projectsArray = [
     description:
       "A 'Time Machine' that creates a Spotify playlist of the Billboard Top 100 songs for a user-provided date. Uses BeautifulSoup and requests for web scraping and Spotipy for authentication and playlist creation.",
     created: 'August 3, 2021',
+    image: 'spotify.png'
   },
   {
     name: 'Day 45: Movie Watchlist',
