@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 47: Amazon Price Tracker Project',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/price_tracker',
+    topic: 'Web Scraping with Amazon',
+    description:
+      "An automated price tracker that uses BeautifulSoup to monitor the price of a given item on Amazon. If the price drops below a specified threshold, smtplib emails me with the price and item name.",
+    created: 'August 4, 2021'
+  },
+  {
     name: 'Day 46: Python Time Machine',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/timeMachine',
     topic: 'Web Scraping and Spotify Automation',
