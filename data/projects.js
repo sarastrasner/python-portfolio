@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 48: Selenium Webdriver',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/selenium_webdriver',
+    topic: 'Selenium Webdriver Broswer and Game Bot',
+    description:
+      "Uses Selenium Webdriver to create a bot that plays Cookie Clicker by clicking on the cookie as fast as possible. Every 5 seconds, it checks the right-hand pane to see which upgrades are affordable and purchase the most expensive one. Every 5 minutes, the bot stops and prints the cookies per second.",
+    created: 'August 10, 2021',
+    image: 'cookies.gif',
+  },
+  {
     name: 'Day 47: Amazon Price Tracker Project',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/price_tracker',
     topic: 'Web Scraping with Amazon',
