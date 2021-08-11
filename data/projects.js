@@ -1,10 +1,18 @@
 let projectsArray = [
   {
+    name: 'Day 49: Job Application Bot',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/job_application_bot',
+    topic: 'Automated Job Applications with Selenium',
+    description:
+      'A bot that uses Selenium to automate applying for jobs via LinkedIn.',
+    created: 'August 11, 2021',
+  },
+  {
     name: 'Day 48: Selenium Webdriver',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/selenium_webdriver',
     topic: 'Selenium Webdriver Broswer and Game Bot',
     description:
-      "Uses Selenium Webdriver to create a bot that plays Cookie Clicker by clicking on the cookie as fast as possible. Every 5 seconds, it checks the right-hand pane to see which upgrades are affordable and purchase the most expensive one. Every 5 minutes, the bot stops and prints the cookies per second.",
+      'Uses Selenium Webdriver to create a bot that plays Cookie Clicker by clicking on the cookie as fast as possible. Every 5 seconds, it checks the right-hand pane to see which upgrades are affordable and purchase the most expensive one. Every 5 minutes, the bot stops and prints the cookies per second.',
     created: 'August 10, 2021',
     image: 'cookies.gif',
   },
@@ -13,8 +21,8 @@ let projectsArray = [
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/price_tracker',
     topic: 'Web Scraping with Amazon',
     description:
-      "An automated price tracker that uses BeautifulSoup to monitor the price of a given item on Amazon. If the price drops below a specified threshold, smtplib emails me with the price and item name.",
-    created: 'August 4, 2021'
+      'An automated price tracker that uses BeautifulSoup to monitor the price of a given item on Amazon. If the price drops below a specified threshold, smtplib emails me with the price and item name.',
+    created: 'August 4, 2021',
   },
   {
     name: 'Day 46: Python Time Machine',
@@ -23,7 +31,7 @@ let projectsArray = [
     description:
       "A 'Time Machine' that creates a Spotify playlist of the Billboard Top 100 songs for a user-provided date. Uses BeautifulSoup and requests for web scraping and Spotipy for authentication and playlist creation.",
     created: 'August 3, 2021',
-    image: 'spotify.png'
+    image: 'spotify.png',
   },
   {
     name: 'Day 45: Movie Watchlist',
