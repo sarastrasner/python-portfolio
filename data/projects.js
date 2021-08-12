@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 50: Tinder Swipe Bot',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/tinder_swipe_bot',
+    topic: 'Auto Tender Swiping Bot with Selenium',
+    description:
+      'A Selenium WebDriver bot that logs in to Tinder with Facebook credentials and swipes right on the first 100 potential matches.',
+    created: 'August 12, 2021',
+  },
+  {
     name: 'Day 49: Job Application Bot',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/job_application_bot',
     topic: 'Automated Job Applications with Selenium',
