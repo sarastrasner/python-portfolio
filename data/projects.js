@@ -1,5 +1,14 @@
 let projectsArray = [
   {
+    name: 'Day 53: Data Entry Job Automation',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/data_entry_automation',
+    topic: 'Capstone Project: Webscraping',
+    description:
+      'A data entry job automation bot that searches for potential rentals on Zillow, scrapes the relevant data with Beautiful Soup, and completes a Google form with that data using Selenium Web Driver.',
+    created: 'August 17, 2021',
+    image: 'data_entry.gif'
+  },
+  {
     name: 'Day 52: Instagram Follower Bot',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/instagram_follower_bot',
     topic: 'Instagram Follower Bot with Selenium',
