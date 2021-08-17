@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 51: Complaining Twitter Bot',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/internet_speed_complaint_bot',
+    topic: 'Auto Complaint Bot with Selenium',
+    description:
+      'A bot that uses Selenium to get the current internet upload and download speeds via `speedtest.net` and tweets a complaint to my internet provider if either value is below their promised speeds.',
+    created: 'August 13, 2021',
+  },
+  {
     name: 'Day 50: Tinder Swipe Bot',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/tinder_swipe_bot',
     topic: 'Auto Tender Swiping Bot with Selenium',
