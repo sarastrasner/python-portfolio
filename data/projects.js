@@ -1,5 +1,13 @@
 let projectsArray = [
   {
+    name: 'Day 52: Instagram Follower Bot',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/instagram_follower_bot',
+    topic: 'Instagram Follower Bot with Selenium',
+    description:
+      'Uses Selenium to automatically log in to Instagram, navigate to the page of a given account, click the followers link, and start following those accounts one-by-one.',
+    created: 'August 16, 2021',
+  },
+  {
     name: 'Day 51: Complaining Twitter Bot',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/internet_speed_complaint_bot',
     topic: 'Auto Complaint Bot with Selenium',
