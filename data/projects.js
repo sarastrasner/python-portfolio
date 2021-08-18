@@ -1,4 +1,12 @@
 let projectsArray = [
+    {
+    name: 'Day 54: Basic Flask Server and Decorator Function',
+    URL: 'https://github.com/sarastrasner/python-projects/tree/main/flask_intro',
+    topic: 'Command Line, Python Decorators, and Web Development with Flask',
+    description:
+      'A basic server built using Flask and a function speed calculator decorator function.',
+    created: 'August 18, 2021',
+  },
   {
     name: 'Day 53: Data Entry Job Automation',
     URL: 'https://github.com/sarastrasner/python-projects/tree/main/data_entry_automation',
